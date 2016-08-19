@@ -1,5 +1,5 @@
-userData : {
-	[
+{
+	userList : [
 	 	{
 	 		id : 1,
 	 		name : "Ankit",
