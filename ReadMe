@@ -1,0 +1,10 @@
+Steps to follow:
+1) Download flat buffers java project from google's git repository : https://github.com/google/flatbuffers. Add these java files in your project
+2) Download CMake and build flatc compiler using following command based on platform you are using.
+cmake -G "Unix Makefiles"
+cmake -G "Visual Studio 10"
+cmake -G "Xcode"
+3) create a schema for your data
+4) use flatc compiler to compile the schema. This will generate some java classes. Add these java classes in your project and use them for creating flatbuffers.
+
+Follow this tutorial: https://google.github.io/flatbuffers/flatbuffers_guide_tutorial.html
