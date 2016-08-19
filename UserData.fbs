@@ -1,0 +1,17 @@
+namespace com.treebo.UserData;
+
+enum Gender : byte {Male = 1, Female, Other}
+
+table User {
+	id : short;
+	name : string;
+	age : byte;
+	gender : Gender = Male;
+	company : string;
+}
+
+table UserList {
+	userList : [User];
+}
+
+root_type UserList;

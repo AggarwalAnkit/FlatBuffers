@@ -1,0 +1,18 @@
+userData : {
+	[
+	 	{
+	 		id : 1,
+	 		name : "Ankit",
+	 		age : 24,
+	 		gender : 1,
+	 		company : "Treebo Hotels"
+	 	},
+	 	{
+	 		id : 2,
+	 		name : "K",
+	 		age : 24,
+	 		gender : 2,
+	 		company : "Treebo Hotels"
+	 	}
+	]
+}
